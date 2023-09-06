@@ -153,7 +153,8 @@ button {
 
 .container-4 {
     display: flex;
-    flex: 1 1 30vh;
+    flex-flow: column wrap;
+    flex: 1 1 25vh;
     justify-content: center;
     align-items: center;
     background-color: pink;
@@ -165,6 +166,7 @@ button {
     color: #1F2937;
     margin: 20px;
 }
+
 
 footer {
     background-color: #1F2937;
