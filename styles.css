@@ -11,6 +11,28 @@ body {
     display: flex;
     background-color: lightcoral;
     height: 50px;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    gap: 20px;
+}
+
+.header-right ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 20px;
+    padding: 0;
+    gap: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
 }
 
 .body {
