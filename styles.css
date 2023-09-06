@@ -108,7 +108,15 @@ button {
 .container-2 {
     display: flex;
     flex: 1;
-    background-color: lightskyblue;
+    background-color: white;
+    justify-content: center;
+}
+
+.container-2 p {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 10px;
 }
 
 .container-3 {
