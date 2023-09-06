@@ -2,14 +2,27 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     min-height: 100vh;
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding:  0 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
     display: flex;
-    background-color: lightcoral;
+    background-color: #1F2937;
     height: 50px;
     justify-content: space-between;
 }
@@ -19,6 +32,11 @@ body {
     align-items: center;
     margin: 0 20px;
     gap: 20px;
+}
+
+/* need fixing */
+.header .github {
+    text-decoration: none;
 }
 
 .header-right ul {
@@ -37,14 +55,55 @@ body {
 
 .body {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     flex: 1;
 }
 
 .container-1 {
     display: flex;
+    flex-wrap: wrap;
+    max-height: ;
+    flex: 1 1 150px;
+    padding: 70px 150px;
+    background-color: #1F2937;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    /* max-height: 300px; */
     flex: 1;
-    background-color: lightgoldenrodyellow;
+    margin: 30px;
+    background-color: #1F2937;
+    gap: 10px;
+}
+
+.about-item.item1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    align-self: flex-end;
+    flex-grow: 0;
+}
+
+.about-item.item2 {
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-grow: 0;
+}
+
+.about-item.item3 {
+    align-items: flex-start;
+    flex-grow: 0;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+
+button {
+    margin: 0px;
+    padding: 6px 20px;
+    border-radius: 10%;
 }
 
 .container-2 {
@@ -59,6 +118,9 @@ body {
     background-color: lightpink;
 }
 
+footer {
+    background-color: #1F2937;
+}
 
 
 
