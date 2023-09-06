@@ -151,6 +151,21 @@ button {
     align-items: center;
 }
 
+.container-4 {
+    display: flex;
+    flex: 1 1 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.container-4 p {
+    font-size: 28px;
+    font-weight: light italic;
+    color: #1F2937;
+    margin: 20px;
+}
+
 footer {
     background-color: #1F2937;
 }
