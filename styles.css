@@ -121,8 +121,34 @@ button {
 
 .container-3 {
     display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
     flex: 1;
-    background-color: lightpink;
+    background-color: white;
+}
+
+.container-3 .recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    flex: 1;
+}
+
+.recipe .recipe-img {
+    display: flex;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.recipe .recipe-desc {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
