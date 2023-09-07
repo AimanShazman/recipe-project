@@ -216,7 +216,13 @@ button {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
