@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     min-height: 100vh;
     border: 1px solid black;
     margin: 0;
@@ -79,7 +79,7 @@ img {
 
 .about-item.item1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     align-self: flex-end;
     flex-grow: 0;
@@ -114,7 +114,7 @@ button {
 
 .container-2 p {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
     margin: 10px;
 }
@@ -157,7 +157,7 @@ button {
     flex: 1 1 25vh;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: lightgray;
 }
 
 .container-4 p {
@@ -167,6 +167,52 @@ button {
     margin: 20px;
 }
 
+.container-5 {
+    display: flex;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container-5 .sign-up {
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 130px;
+    justify-content: space-between;
+    gap: 50px;
+    border-radius: 10px;
+    /* flex: 1; */
+
+}
+
+.container-5 .sign-up-left {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #3882F6;
+}
+
+.sign-up-left .call {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up .call-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up .button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.sign-up button {
+    border: solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
 
 footer {
     background-color: #1F2937;
