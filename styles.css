@@ -110,6 +110,7 @@ button {
     flex: 1;
     background-color: white;
     justify-content: center;
+    margin: 30px;
 }
 
 .container-2 p {
