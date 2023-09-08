@@ -202,7 +202,7 @@ img {
 .container-4 {
     display: flex;
     flex-flow: column wrap;
-    flex: 1 1 25vh;
+    flex: 1 1 20vh;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
@@ -238,7 +238,7 @@ img {
     min-height: 30vh;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    /* padding: 10px; */
 }
 
 .container-5 .sign-up {
