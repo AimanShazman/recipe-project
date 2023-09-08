@@ -24,7 +24,7 @@ img {
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 50px;
+    height: 70px;
     justify-content: space-between;
 }
 
@@ -35,23 +35,39 @@ img {
     gap: 20px;
 }
 
-/* need fixing */
-.header .github {
-    text-decoration: none;
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    /* width: 40px; */
+    object-fit: contain;
+}
+
+.logo p {
+    color: #E5E7EB;
+    font-size: 20px;
 }
 
 .header-right ul {
     display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    margin: 0 20px;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
     padding: 0;
+    margin: 16px;
     gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.header-right {
-    display: flex;
-    align-items: center;
+.header-right a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 20px;
 }
 
 .body {
