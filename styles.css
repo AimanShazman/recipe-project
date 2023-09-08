@@ -84,6 +84,15 @@ img {
     background-color: #1F2937;
 }
 
+.container-1 .image {
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 img {
+    height: 300px;
+}
+
 .about {
     display: flex;
     flex-direction: column;
