@@ -135,13 +135,13 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 
 .container-3 {
     display: flex;
     flex-flow: row wrap;
-    padding: 20px 20px 50px 20px;
+    padding: 40px 20px 100px 20px;
     flex: 1;
     background-color: white;
 }
@@ -177,13 +177,31 @@ img {
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    padding: 20px;
 }
 
-.container-4 p {
+#quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 5px;
+}
+
+.container-4 .quote {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-end;
     font-size: 22px;
     font-weight: light italic;
     color: #1F2937;
-    margin: 20px;
+}
+
+.container-4 .quoter {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    font-size: 22px;
 }
 
 .container-5 {
@@ -191,7 +209,7 @@ img {
     min-height: 30vh;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
 }
 
 .container-5 .sign-up {
@@ -201,8 +219,6 @@ img {
     justify-content: space-between;
     gap: 50px;
     border-radius: 10px;
-    /* flex: 1; */
-
 }
 
 .container-5 .sign-up-left {
