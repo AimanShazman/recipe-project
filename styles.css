@@ -98,7 +98,7 @@ img {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    align-self: flex-end;
+    align-self: flex-start;
     flex-grow: 0;
 }
 
